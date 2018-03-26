@@ -23,10 +23,10 @@
 define('DB_NAME', 'wordpress');
 
 /** MySQL数据库用户名 */
-define('DB_USER', $_ENV['DB_USER']);
+define('DB_USER', getenv('DB_USER'));
 
 /** MySQL数据库密码 */
-define('DB_PASSWORD', $_ENV['DB_PASSWORD']);
+define('DB_PASSWORD', getenv('DB_PASSWORD'));
 
 /** MySQL主机 */
 define('DB_HOST', 'localhost');
